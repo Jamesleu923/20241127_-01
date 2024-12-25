@@ -4,12 +4,18 @@
 using namespace std;
  int main()
 {
+
+ 
+	return 0;
+
+}
+ void fun01() {
 	 //輸入資料:
- //算圓面積 ,前提要有資料才能算, 資料:半徑? 圓週率?
- //step1 :先用二個變數來表示半徑與圓週率
- // 
- //建立要用變數宣告,含型別(整數int? 字元char?浮點數 float? double?)/ 
- //    變數型態:半徑: 有可能是整數? 字元? 還是帶有小數點的浮點數?
+	//算圓面積 ,前提要有資料才能算, 資料:半徑? 圓週率?
+	//step1 :先用二個變數來表示半徑與圓週率
+	// 
+	//建立要用變數宣告,含型別(整數int? 字元char?浮點數 float? double?)/ 
+	//    變數型態:半徑: 有可能是整數? 字元? 還是帶有小數點的浮點數?
 	 float r = 0;  //當半徑變數
 	 //    變數型態:圓週率: 有可能是整數? 字元? 還是帶有小數點的浮點數?
 	 double pi = 0;
@@ -31,11 +37,7 @@ using namespace std;
 	 //印出pi ,r 的值跟位址:
 	 cout << "pi的位址:" << &pi << endl << " pi的值為:" << pi << endl;
 	 cout << "r的位址:" << &r << endl << " r的值為:" << r << endl;
- 
-	return 0;
-
 }
-
 
 void TraditionCInput() {
 	//輸入資料:
